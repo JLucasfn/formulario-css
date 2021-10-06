@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="shortcut icon" href="../Aulas/favicon.ico" type="image/x-icon">
+            <link rel="stylesheet" href="style.css">
+
+            <title>Formulário</title>
+        </head>
+        <body>
+            <header>
+                <h1>Faça o contato com sua empresa</h1>
+                    <p>Informe seus dados</p>
+            </header>
+
+            <nav>
+                <ul class="aff">
+                <li><a href=
+                    "https://www.youtube.com/channel/UCPImHSgLXuBfzMlB4K6CNlQ"
+                    target="_blank">Youtube</a></li>
+                <li><a href=
+                    "https://www.instagram.com/joaolucas_sz/?hl=pt-br"
+                    target="_blank">Instagram</a></li>
+                <li><a href=
+                    "https://www.linkedin.com/in/jo%C3%A3o-lucas-freitas-1424a6220/" target="_blank">LinkedIn</a></li>
+                <li><a href=
+                    "https://github.com/Lucassz18"
+                    target="_blank">Github</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <div>
+                    <h1 id="titulo">Cadastro de devs</h1>
+                        <p id="subtitulo">Complete suas informações</p>
+                </div>
+                <form>
+                    
+                    <div class="fofofofo" style="margin-top: 12px;">
+                        <fieldset class="grupo">
+                            <div class="campo">
+                                <label for="nome"></label>Nome</label>
+                                <input type="text" name="nome" id="nome" required>
+                            </div>
+                            <div class="campo">
+                                <label for="sobrenome"></label>Sobrenome</label>
+                                <input type="text" name="sobrenome" id="sobrenome" required>
+                            </div>
+                        </fieldset>
+                    </div>
+
+                    <p class="izi"></p>
+
+                    <div class="fofofofo2">
+                        <fieldset class="grupo">
+                            <div class="campo">
+                                <label for="email"></label>Email</label>
+                                <input type="email" name="email" id="email" required>
+                            </div>
+                            <div class="campo">
+                                <label for="text"></label>Telefone</label>
+                                <input type="text" name="telefone" id="telefone" required>
+                            </div>
+                        </fieldset>
+                    </div>
+
+                    <div class="campo" style="margin-bottom: 5px;">
+                        <label"></label>Qual lado da aplicação você desenvolve?</label>
+                        <label for="frontend">
+                            <input style="margin:auto; margin-top: 5px;" class="radio" type="radio" name="devweb" value="frontend" checked>Front-End
+                        </label>
+                        <label for="backend">
+                            <input class="radio" type="radio" name="devweb" value="backend"> Back-End
+                        </label>
+                        <label for="fullstack">
+                            <input class="radio" type="radio" name="devweb" value="fullstack"> Full Stack
+                        </label>
+                    </div>
+
+                    <div class="campo">
+
+                        <div style="width: 160px; margin: auto;">
+                            <label for="exp">Qual sua experiência?</label>
+                        </div>
+                    <select id="exp">
+
+                        <option selected disabled value="">Selecione</option>
+                        <option>Júnior</option>
+                        <option>Pleno</option>
+                        <option>Sênior</option>
+
+                    </select>
+
+                    </div>
+                    <fieldset class="grupo" id="fofoss">
+
+                        <div class="check">
+                            <label>Selecione as suas linguagens:</label><br><br>
+                            <input type="checkbox" name="ling1" id="html" value="HTML">
+                            <label for="HTML">HTML</label>
+                            <input type="checkbox" name="ling2" id="css" value="CSS">
+                            <label for="CSS">CSS</label>
+                            <input type="checkbox" name="ling3" id="js" value="JS">
+                            <label for="JS">Javascript</label>
+                            <input type="checkbox" name="ling4" id="php" value="PHP">
+                            <label for="PHP">PHP</label>
+                            <br>
+                            <input type="checkbox" name="ling5" id="c#" value="C#">
+                            <label for="C#">C#</label>
+                            <input type="checkbox" name="ling6" id="python" value="Python">
+                            <label for="Python">Python</label>
+                            <input type="checkbox" name="ling7" id="java" value="Java">
+                            <label for="Java">Java</label>
+                            <input type="checkbox" name="ling8" id="wordpress" value="WordPress">
+                            <label for="WordPress">WordPress</label>
+                        </div>
+
+                    </fieldset>
+                
+                        <div class="campo" style="margin: 0;">
+                            <br>
+                            <label>Conte um pouco da sua experiência:</label>
+                            <textarea name="textoarea" id="textoarea" rows="6"></textarea>
+                        </div>
+
+                        <div class="fofo3"><button type="submit" class="botao" onsubmit="">Concluído</button></div>
+
+                </form>
+            </main>
+
+        </body>
+    </html>
